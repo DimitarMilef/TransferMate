@@ -22,7 +22,7 @@ public class ContactTriggerHandler {
 
     // Update the datetime field on the related Accounts
     for (Account acc : accountsToUpdate) {
-        // You can update the datetime field as per your requirements
+        // Update the datetime field
         acc.Last_Contact_Update__c = System.now();
     }
 
