@@ -7,6 +7,6 @@ Created Date       : Nov 07, 2020
 *********************************************************
 */
 trigger ContactTrigger on Contact (after update) {
-    //Call method updateAccountLastContactUpdate from class AccountTriggerHandler
-    AccountTriggerHandler.updateAccountLastContactUpdate(trigger.New);
+    //Call method updateAccountLastContactUpdate from class ContactTriggerHandler
+    ContactTriggerHandler.updateAccountLastContactUpdate(trigger.New);
 }
