@@ -1,12 +1,12 @@
 /*
 *********************************************************
-Apex Class Name    : AccountTriggerHandler
+Apex Class Name    : ContactTriggerHandler
 Created Date       : Nov 7, 2023
 @description       : This is class is used to set set Last Contact Update field on Account whenever a related Contact is updated
 @author            : Dimitar Milev
 *********************************************************
 */
-public class AccountTriggerHandler { 
+public class ContactTriggerHandler { 
     
     public static void updateAccountLastContactUpdate(List<Contact> contactList) {
 
