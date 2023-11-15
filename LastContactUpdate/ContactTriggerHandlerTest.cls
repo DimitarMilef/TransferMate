@@ -1,5 +1,5 @@
 @isTest
-public class AccountTriggerHandlerTest {
+public class ContactTriggerHandlerTest {
     // Helper method to create a test Contact and Account
     public static void createTestContactAndAccount() {
         Account testAccount = new Account(Name = 'Test Account');
